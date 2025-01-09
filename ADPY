@@ -1,0 +1,9 @@
+import mysql_connector
+
+mydb=mysql.connect(host="localhost",username="",passwd="",databse="") 
+
+mycursour=mysql.cursour() 
+mycursour. execute("select*from tbname") 
+
+for i in range(mycursour):
+          print(i) 
